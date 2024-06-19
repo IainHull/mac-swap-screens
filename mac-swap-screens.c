@@ -16,8 +16,6 @@ int main(int argc, const char * argv[]) {
     UInt32 displayCount = 0;
 
     CGDirectDisplayID screenList[MaxDisplays];
-    CGDirectDisplayID external1;
-    CGDirectDisplayID external2;
     CGGetOnlineDisplayList(MaxDisplays, screenList, &displayCount);
 
     printf("      ID    Model   Serial     Unit   Vendor    Origin      Size A M O\n");
